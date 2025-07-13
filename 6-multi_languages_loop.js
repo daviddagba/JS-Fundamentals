@@ -4,4 +4,9 @@ const lines = [
   "JavaScript is amazing"
 ];
 
-console.log(lines.join("\n"));
+let result = "";
+for (let i = 0; i < lines.length; i++) {
+  result += lines[i] + "\n";
+}
+
+console.log(result.trim());
